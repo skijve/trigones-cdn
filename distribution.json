@@ -11,6 +11,10 @@
             "minecraftVersion": "26.1.2",
             "mainServer": true,
             "autoconnect": true,
+            "javaOptions": {
+                "supported": ">=25.x",
+                "suggestedMajor": 25
+            },
             "modules": [
                 {
                     "id": "net.fabricmc:fabric-loader:0.19.3",
