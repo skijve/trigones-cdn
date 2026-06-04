@@ -11,7 +11,30 @@
             "minecraftVersion": "26.1.2",
             "mainServer": true,
             "autoconnect": true,
-            "modules": []
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.19.3",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 1976502,
+                        "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "fabric-loader-0.19.3-26.1.2",
+                            "name": "Fabric Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 2782,
+                                "MD5": "2897fe6892c5477461a3ff747b2a5fe3",
+                                "url": "https://meta.fabricmc.net/v2/versions/loader/26.1.2/0.19.3/profile/json"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
