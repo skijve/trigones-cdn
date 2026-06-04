@@ -7,7 +7,7 @@
             "description": "Bienvenue sur le serveur alpha familyMineCraft !",
             "icon": "https://raw.githubusercontent.com/skijve/MineCraft/master/launcher-distro/server-icon.png",
             "version": "1.0.0",
-            "address": "79.137.64.16",
+            "address": "test.safecraft.io",
             "minecraftVersion": "26.1.2",
             "mainServer": true,
             "autoconnect": true,
