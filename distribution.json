@@ -177,16 +177,6 @@
                                                                                 }
                                                                },
                                                                {
-                                                                   "id":  "refined-storage:2.0.8",
-                                                                   "name":  "Refined Storage",
-                                                                   "type":  "FabricMod",
-                                                                   "artifact":  {
-                                                                                    "size":  5353158,
-                                                                                    "MD5":  "b89af15c836ee33456b4ccced6ff9c91",
-                                                                                    "url":  "https://cdn.modrinth.com/data/KDvYkUg3/versions/jyvoeTZf/refinedstorage-fabric-2.0.8.jar"
-                                                                                }
-                                                               },
-                                                               {
                                                                    "id":  "architects-palette:1.4.0-beta.5F",
                                                                    "name":  "Architects Palette",
                                                                    "type":  "FabricMod",
@@ -224,16 +214,6 @@
                                                                                     "size":  3240212,
                                                                                     "MD5":  "0a509a64f871c958ab659fa684ea10c4",
                                                                                     "url":  "https://cdn.modrinth.com/data/7vxePowz/versions/NCLOIK5z/FarmersDelight-1.21.1-3.3.3%2Brefabricated.jar"
-                                                                                }
-                                                               },
-                                                               {
-                                                                   "id":  "ecologics:2.3.6-Fabric",
-                                                                   "name":  "Ecologics",
-                                                                   "type":  "FabricMod",
-                                                                   "artifact":  {
-                                                                                    "size":  2888854,
-                                                                                    "MD5":  "ff6abf53a201ca649aba4b442bfbc727",
-                                                                                    "url":  "https://cdn.modrinth.com/data/NCKpPR0Z/versions/ziEe6UX5/ecologics-fabric-1.21.1-2.3.6.jar"
                                                                                 }
                                                                },
                                                                {
