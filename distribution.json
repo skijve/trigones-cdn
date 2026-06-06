@@ -1,104 +1,264 @@
 {
-    "version": "1.0.0",
-    "servers": [
-        {
-            "id": "familyminecraft-alpha-1",
-            "name": "familyMineCraft Alpha",
-            "description": "Bienvenue sur le serveur alpha familyMineCraft !",
-            "icon": "https://raw.githubusercontent.com/skijve/MineCraft/master/launcher-distro/server-icon.png",
-            "version": "1.0.0",
-            "address": "test.safecraft.io",
-            "minecraftVersion": "26.1.2",
-            "mainServer": true,
-            "autoconnect": true,
-            "javaOptions": {
-                "supported": ">=25.x",
-                "suggestedMajor": 25
-            },
-            "modules": [
-                {
-                    "id": "net.fabricmc:fabric-loader:0.19.3",
-                    "name": "Fabric Loader",
-                    "type": "Fabric",
-                    "artifact": {
-                        "size": 1976502,
-                        "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "fabric-loader-0.19.3-26.1.2",
-                            "name": "Fabric Version Manifest",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 2782,
-                                "MD5": "2897fe6892c5477461a3ff747b2a5fe3",
-                                "url": "https://meta.fabricmc.net/v2/versions/loader/26.1.2/0.19.3/profile/json"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm:9.10.1",
-                            "name": "ASM",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 126151,
-                                "MD5": "9cb72080438acf27f2607002e1444a7b",
-                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-analysis:9.10.1",
-                            "name": "ASM Analysis",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 35140,
-                                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
-                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-commons:9.10.1",
-                            "name": "ASM Commons",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 74840,
-                                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
-                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-tree:9.10.1",
-                            "name": "ASM Tree",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 51958,
-                                "MD5": "62541e1dc62331408ef31317555bf4fa",
-                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-util:9.10.1",
-                            "name": "ASM Util",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 95628,
-                                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
-                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
-                            "name": "Sponge Mixin",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1540060,
-                                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
-                                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "version":  "1.0.0",
+    "servers":  [
+                    {
+                        "id":  "familyminecraft-alpha-1",
+                        "name":  "familyMineCraft Alpha",
+                        "description":  "Bienvenue sur le serveur alpha familyMineCraft !",
+                        "icon":  "https://raw.githubusercontent.com/skijve/MineCraft/master/launcher-distro/server-icon.png",
+                        "version":  "1.0.0",
+                        "address":  "test.safecraft.io",
+                        "minecraftVersion":  "1.21.1",
+                        "mainServer":  true,
+                        "autoconnect":  true,
+                        "javaOptions":  {
+                                            "supported":  ">=21.x",
+                                            "suggestedMajor":  21
+                                        },
+                        "modules":  [
+                                        {
+                                            "id":  "net.fabricmc:fabric-loader:0.19.3",
+                                            "name":  "Fabric Loader",
+                                            "type":  "Fabric",
+                                            "artifact":  {
+                                                             "size":  1976502,
+                                                             "MD5":  "881e0e9f53a11b9ad468b47afd678bfd",
+                                                             "url":  "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+                                                         },
+                                            "subModules":  [
+                                                               {
+                                                                   "id":  "fabric-loader-0.19.3-1.21.1",
+                                                                   "name":  "Fabric Version Manifest",
+                                                                   "type":  "VersionManifest",
+                                                                   "artifact":  {
+                                                                                    "size":  2862,
+                                                                                    "MD5":  "38dd05c25da587cf786525da8746cc46",
+                                                                                    "url":  "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.19.3/profile/json"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm:9.10.1",
+                                                                   "name":  "ASM",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  126151,
+                                                                                    "MD5":  "9cb72080438acf27f2607002e1444a7b",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-analysis:9.10.1",
+                                                                   "name":  "ASM Analysis",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  35140,
+                                                                                    "MD5":  "6dd9011ec87f65e4b2e14e938c4118e4",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-commons:9.10.1",
+                                                                   "name":  "ASM Commons",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  74840,
+                                                                                    "MD5":  "8eee0b1bdd046baf472eb83dd5e6bb44",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-tree:9.10.1",
+                                                                   "name":  "ASM Tree",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  51958,
+                                                                                    "MD5":  "62541e1dc62331408ef31317555bf4fa",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-util:9.10.1",
+                                                                   "name":  "ASM Util",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  95628,
+                                                                                    "MD5":  "d0892ecb209867805e7d2418e5dc6c42",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+                                                                   "name":  "Sponge Mixin",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  1540060,
+                                                                                    "MD5":  "87002a5fc9faa1543bf4204f8d5876fb",
+                                                                                    "url":  "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "sodium:mc1.21.1-0.8.12-alpha.4-fabric",
+                                                                   "name":  "Sodium",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  1565263,
+                                                                                    "MD5":  "9a4e7eeb7b9c3ff9fb495e8b6acc4f88",
+                                                                                    "url":  "https://cdn.modrinth.com/data/AANobbMI/versions/uheoPKxU/sodium-fabric-0.8.12-alpha.4%2Bmc1.21.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "lithium:mc1.21.1-0.15.3-fabric",
+                                                                   "name":  "Lithium",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  797398,
+                                                                                    "MD5":  "469d5a220904850809f35f92f53854f1",
+                                                                                    "url":  "https://cdn.modrinth.com/data/gvQqBUqZ/versions/XQJtuOTA/lithium-fabric-0.15.3%2Bmc1.21.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "worldedit:7.3.8",
+                                                                   "name":  "WorldEdit",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  6222854,
+                                                                                    "MD5":  "f5d6f09ca5c4b1958780d01a099b779d",
+                                                                                    "url":  "https://cdn.modrinth.com/data/1u6JkXh5/versions/WTAFvuRx/worldedit-mod-7.3.8.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "cc-tweaked:1.119.0",
+                                                                   "name":  "ComputerCraft: Tweaked",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  3662557,
+                                                                                    "MD5":  "84857b3ac24079f91065698b6d5e45b6",
+                                                                                    "url":  "https://cdn.modrinth.com/data/gu7yAYhd/versions/RnGO52bc/cc-tweaked-1.21.1-fabric-1.119.0.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "bluemap:5.7-fabric",
+                                                                   "name":  "BlueMap",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  5517229,
+                                                                                    "MD5":  "964c1a371390dff18bea716f6b3f91e6",
+                                                                                    "url":  "https://cdn.modrinth.com/data/swbUV1cr/versions/Dr2hvJBc/bluemap-5.7-fabric.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "supplementaries:1.21.1-3.6.7",
+                                                                   "name":  "Supplementaries",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  13166422,
+                                                                                    "MD5":  "caf469bdcef3dd8ec9087f3a2d281074",
+                                                                                    "url":  "https://cdn.modrinth.com/data/fFEIiSDQ/versions/Exz712sl/supplementaries-fabric-1.21.1-3.6.7.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "patchouli:1.21.1-93-fabric",
+                                                                   "name":  "Patchouli",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  861256,
+                                                                                    "MD5":  "93596d0eb1bb97c4825b0341532ff46d",
+                                                                                    "url":  "https://cdn.modrinth.com/data/nU0bVIaL/versions/XIjNwQkI/Patchouli-1.21.1-93-FABRIC.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "refined-storage:2.0.8",
+                                                                   "name":  "Refined Storage",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  5353158,
+                                                                                    "MD5":  "b89af15c836ee33456b4ccced6ff9c91",
+                                                                                    "url":  "https://cdn.modrinth.com/data/KDvYkUg3/versions/jyvoeTZf/refinedstorage-fabric-2.0.8.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "architects-palette:1.4.0-beta.5F",
+                                                                   "name":  "Architects Palette",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  3013424,
+                                                                                    "MD5":  "7197b0b97dd3b4a85faf3cc8f57131f5",
+                                                                                    "url":  "https://cdn.modrinth.com/data/vt0VyseM/versions/XrOSU78u/architects_palette-fabric-1.21.1-1.4.0-beta.5.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "terra:6.5.0-BETA-fabric",
+                                                                   "name":  "Terra",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  8555196,
+                                                                                    "MD5":  "e250228e1d3846536c62ed9a7eed246b",
+                                                                                    "url":  "https://cdn.modrinth.com/data/FIlZB9L0/versions/DErjl2jl/Terra-fabric-6.5.0-BETA%2Bb7326c0ff.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "doggy-talents-next:1.18.63",
+                                                                   "name":  "Doggy Talents",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  11425216,
+                                                                                    "MD5":  "22c8e896fa86b2fb84de00be17b035be",
+                                                                                    "url":  "https://cdn.modrinth.com/data/oXgmplvv/versions/t76oZsgc/DoggyTalentsNext%5BFabric%5D-1.21.1-1.18.63.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "farmers-delight-refabricated:1.21.1-3.3.3",
+                                                                   "name":  "Farmer\u0027s Delight",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  3240212,
+                                                                                    "MD5":  "0a509a64f871c958ab659fa684ea10c4",
+                                                                                    "url":  "https://cdn.modrinth.com/data/7vxePowz/versions/NCLOIK5z/FarmersDelight-1.21.1-3.3.3%2Brefabricated.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "ecologics:2.3.6-Fabric",
+                                                                   "name":  "Ecologics",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  2888854,
+                                                                                    "MD5":  "ff6abf53a201ca649aba4b442bfbc727",
+                                                                                    "url":  "https://cdn.modrinth.com/data/NCKpPR0Z/versions/ziEe6UX5/ecologics-fabric-1.21.1-2.3.6.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "fabric-api:0.116.12+1.21.1",
+                                                                   "name":  "Fabric API",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  2427037,
+                                                                                    "MD5":  "f85c049c10c2240f89abe287ba0882d4",
+                                                                                    "url":  "https://cdn.modrinth.com/data/P7dR8mSH/versions/Lwt6YYHL/fabric-api-0.116.12%2B1.21.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "forge-config-api-port:v21.1.6-1.21.1-Fabric",
+                                                                   "name":  "Forge Config API Port",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  633065,
+                                                                                    "MD5":  "eba1a7f9d9976e983a2b9eb5e915e087",
+                                                                                    "url":  "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "moonlight:1.21.1-3.0.14",
+                                                                   "name":  "Moonlight Library",
+                                                                   "type":  "FabricMod",
+                                                                   "artifact":  {
+                                                                                    "size":  1616457,
+                                                                                    "MD5":  "e42a3ea32455a19f47d5af9557457d67",
+                                                                                    "url":  "https://cdn.modrinth.com/data/twkfQtEc/versions/T0ihXBHE/moonlight-fabric-1.21.1-3.0.14.jar"
+                                                                                }
+                                                               }
+                                                           ]
+                                        }
+                                    ]
+                    }
+                ]
 }
