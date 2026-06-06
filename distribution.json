@@ -97,6 +97,16 @@
                                                                                 }
                                                                },
                                                                {
+                                                                   "id":  "net.fabricmc:intermediary:1.21.1",
+                                                                   "name":  "Intermediary Mappings",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  657725,
+                                                                                    "MD5":  "850be48a3406b9efdf8e64b1c2db97f8",
+                                                                                    "url":  "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                                                                                }
+                                                               },
+                                                               {
                                                                    "id":  "sodium:mc1.21.1-0.8.12-alpha.4-fabric",
                                                                    "name":  "Sodium",
                                                                    "type":  "FabricMod",
